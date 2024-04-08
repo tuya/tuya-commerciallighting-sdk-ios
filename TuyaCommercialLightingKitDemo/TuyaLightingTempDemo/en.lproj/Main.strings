@@ -1,0 +1,105 @@
+
+/* Class = "UIButton"; normalTitle = "返回"; ObjectID = "00h-r1-Cvi"; */
+"00h-r1-Cvi.normalTitle" = "Back";
+
+/* Class = "UITabBarItem"; title = "设备列表"; ObjectID = "3Qn-5a-Xde"; */
+"3Qn-5a-Xde.title" = "Device list";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "82J-0o-c4e"; */
+"82J-0o-c4e.text" = "Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "H9A-lq-jeb"; */
+"H9A-lq-jeb.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "详细地址"; ObjectID = "JEp-JU-uDK"; */
+"JEp-JU-uDK.placeholder" = "Detail address";
+
+/* Class = "UINavigationItem"; title = "我的"; ObjectID = "KUL-Vo-qlS"; */
+"KUL-Vo-qlS.title" = "Me";
+
+/* Class = "UIButton"; normalTitle = "退出登录"; ObjectID = "PNL-8U-qDb"; */
+"PNL-8U-qDb.normalTitle" = "Log out";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "Pj1-zv-Cf4"; */
+"Pj1-zv-Cf4.title" = "Create project";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Q2X-Ri-yuP"; */
+"Q2X-Ri-yuP.text" = "Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Uaz-MX-LTw"; */
+"Uaz-MX-LTw.text" = "Title";
+
+/* Class = "UITabBarItem"; title = "组合群组列表"; ObjectID = "WRN-iD-AI9"; */
+"WRN-iD-AI9.title" = "Packed group list";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "X7P-t7-Hjo"; */
+"X7P-t7-Hjo.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "负责人手机号"; ObjectID = "XRn-f3-WUn"; */
+"XRn-f3-WUn.placeholder" = "Owner phone";
+
+/* Class = "UITabBarItem"; title = "登录/注册"; ObjectID = "XcZ-iW-s6t"; */
+"XcZ-iW-s6t.title" = "Log in / Register";
+
+/* Class = "UIButton"; normalTitle = "提交"; ObjectID = "Y1y-TF-PGv"; */
+"Y1y-TF-PGv.normalTitle" = "Submit";
+
+/* Class = "UIButton"; normalTitle = "创建项目"; ObjectID = "YMT-aj-Y4z"; */
+"YMT-aj-Y4z.normalTitle" = "Create project";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "YuC-yR-FZc"; */
+"YuC-yR-FZc.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "创建区域"; ObjectID = "avC-55-EvW"; */
+"avC-55-EvW.normalTitle" = "Create area";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "b95-GC-4TE"; */
+"b95-GC-4TE.text" = "Title";
+
+/* Class = "UITabBarItem"; title = "项目列表"; ObjectID = "bKY-2U-OZ9"; */
+"bKY-2U-OZ9.title" = "Project list";
+
+/* Class = "UITabBarItem"; title = "区域"; ObjectID = "ccK-10-Veh"; */
+"ccK-10-Veh.title" = "Area";
+
+/* Class = "UIButton"; normalTitle = "创建区域"; ObjectID = "ckA-M6-BJA"; */
+"ckA-M6-BJA.normalTitle" = "Create area";
+
+/* Class = "UIButton"; normalTitle = "创建区域"; ObjectID = "dBc-56-HvQ"; */
+"dBc-56-HvQ.normalTitle" = "Create area";
+
+/* Class = "UITextField"; placeholder = "负责人名称"; ObjectID = "fAX-JZ-9eM"; */
+"fAX-JZ-9eM.placeholder" = "Owner name";
+
+/* Class = "UITextField"; placeholder = "区域名称"; ObjectID = "iHX-HN-1wD"; */
+"iHX-HN-1wD.placeholder" = "Area name";
+
+/* Class = "UINavigationItem"; title = "一级区域列表"; ObjectID = "iRG-dI-J2G"; */
+"iRG-dI-J2G.title" = "First level area";
+
+/* Class = "UITabBarItem"; title = "我的"; ObjectID = "jVP-Be-bJ7"; */
+"jVP-Be-bJ7.title" = "Me";
+
+/* Class = "UINavigationItem"; title = "选择一个项目"; ObjectID = "p7F-nr-95I"; */
+"p7F-nr-95I.title" = "Choose a project";
+
+/* Class = "UIButton"; normalTitle = "返回"; ObjectID = "sxX-hP-fZc"; */
+"sxX-hP-fZc.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "创建区域"; ObjectID = "uqS-Pj-eFZ"; */
+"uqS-Pj-eFZ.normalTitle" = "Create area";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "vn1-tL-8Pf"; */
+"vn1-tL-8Pf.title" = "Create area";
+
+/* Class = "UITextField"; placeholder = "项目名称"; ObjectID = "zgZ-Wi-d34"; */
+"zgZ-Wi-d34.placeholder" = "Project name";
+
+/* Class = "UILabel"; ObjectID = "2Qg-6h-bQu.text"; */
+"2Qg-6h-bQu.text" = "Ticket login";
+
+"XFj-5d-gIk" = "Other login";
+
+"qMp-D7-xVJ.title" = "Create packed group";
+
+"XxG-MN-wag.normalTitle" = "Add device";

@@ -1,0 +1,372 @@
+{
+  "sourceLanguage" : "zh-Hans",
+  "strings" : {
+    "4fN-b9-3Zg.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Title\"; ObjectID = \"4fN-b9-3Zg\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Title"
+          }
+        }
+      }
+    },
+    "4g8-7j-FMs.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Root View Controller\"; ObjectID = \"4g8-7j-FMs\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Root View Controller"
+          }
+        }
+      }
+    },
+    "8em-Gt-fMT.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"创建区域\"; ObjectID = \"8em-Gt-fMT\";",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create area"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "创建区域"
+          }
+        }
+      }
+    },
+    "cGv-i6-org.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"SIG Mesh\"; ObjectID = \"cGv-i6-org\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "SIG Mesh"
+          }
+        }
+      }
+    },
+    "DAr-jq-eQn.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"创建区域\"; ObjectID = \"DAr-jq-eQn\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "创建区域"
+          }
+        }
+      }
+    },
+    "DHd-aj-c0W.title" : {
+      "comment" : "Class = \"UITabBarItem\"; title = \"设备列表\"; ObjectID = \"DHd-aj-c0W\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "设备列表"
+          }
+        }
+      }
+    },
+    "EB1-NZ-9Xm.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Title\"; ObjectID = \"EB1-NZ-9Xm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Title"
+          }
+        }
+      }
+    },
+    "esD-zy-7mY.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"EZ Mode\"; ObjectID = \"esD-zy-7mY\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "EZ Mode"
+          }
+        }
+      }
+    },
+    "Euq-c8-hsK.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Title\"; ObjectID = \"Euq-c8-hsK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Title"
+          }
+        }
+      }
+    },
+    "fkr-im-mHv.headerTitle" : {
+      "comment" : "Class = \"UITableViewSection\"; headerTitle = \"Device Network Configuration\"; ObjectID = \"fkr-im-mHv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Device Network Configuration"
+          }
+        }
+      }
+    },
+    "g3T-VQ-qKQ.title" : {
+      "comment" : "Class = \"UITabBarItem\"; title = \"组合群组列表\"; ObjectID = \"g3T-VQ-qKQ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "组合群组列表"
+          }
+        }
+      }
+    },
+    "Hec-sn-Yqu.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"BLE\"; ObjectID = \"Hec-sn-Yqu\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "BLE"
+          }
+        }
+      }
+    },
+    "Hir-dK-kBa.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Add Device\"; ObjectID = \"Hir-dK-kBa\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Add Device"
+          }
+        }
+      }
+    },
+    "hTZ-Zm-ubX.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"ThingSmart\"; ObjectID = \"hTZ-Zm-ubX\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "ThingSmart"
+          }
+        }
+      }
+    },
+    "ICD-9H-kdh.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"区域名称\"; ObjectID = \"ICD-9H-kdh\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Area name"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "区域名称"
+          }
+        }
+      }
+    },
+    "l2Z-zg-wAk.title" : {
+      "comment" : "Class = \"UITabBarItem\"; title = \"设备\"; ObjectID = \"l2Z-zg-wAk\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Device"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "设备"
+          }
+        }
+      }
+    },
+    "lhK-HQ-jSe.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Dual Model\"; ObjectID = \"lhK-HQ-jSe\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Dual Model"
+          }
+        }
+      }
+    },
+    "lmG-iY-wQ7.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"创建区域\"; ObjectID = \"lmG-iY-wQ7\";",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create area"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "创建区域"
+          }
+        }
+      }
+    },
+    "mpd-Pp-6bL.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"返回\"; ObjectID = \"mpd-Pp-6bL\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "返回"
+          }
+        }
+      }
+    },
+    "Q3y-GQ-iuz.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"AP Mode\"; ObjectID = \"Q3y-GQ-iuz\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "AP Mode"
+          }
+        }
+      }
+    },
+    "qYu-lH-qA3.headerTitle" : {
+      "comment" : "Class = \"UITableViewSection\"; headerTitle = \"UI BIZBUNDLE ACTIVATOR\"; ObjectID = \"qYu-lH-qA3\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "UI BIZBUNDLE ACTIVATOR"
+          }
+        }
+      }
+    },
+    "RZj-oW-7F8.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Title\"; ObjectID = \"RZj-oW-7F8\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Title"
+          }
+        }
+      }
+    },
+    "t4x-U7-i7D.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Title\"; ObjectID = \"t4x-U7-i7D\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Title"
+          }
+        }
+      }
+    },
+    "TEd-SM-MDk.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"创建组合群组\"; ObjectID = \"TEd-SM-MDk\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "创建组合群组"
+          }
+        }
+      }
+    },
+    "uCi-jx-JiV.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Title\"; ObjectID = \"uCi-jx-JiV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Title"
+          }
+        }
+      }
+    },
+    "VIo-VH-y5i.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"设备列表\"; ObjectID = \"VIo-VH-y5i\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "设备列表"
+          }
+        }
+      }
+    },
+    "VoN-T3-vw5.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"一级区域列表\"; ObjectID = \"VoN-T3-vw5\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "一级区域列表"
+          }
+        }
+      }
+    },
+    "XGR-nA-dwa.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"群组列表\"; ObjectID = \"XGR-nA-dwa\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "群组列表"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

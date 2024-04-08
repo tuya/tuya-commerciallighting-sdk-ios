@@ -1,0 +1,366 @@
+{
+  "sourceLanguage" : "zh-Hans",
+  "strings" : {
+    "5Ut-Of-7Ud.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"项目负责人\"; ObjectID = \"5Ut-Of-7Ud\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "项目负责人"
+          }
+        }
+      }
+    },
+    "06P-o7-2YV.title" : {
+      "comment" : "Class = \"UITabBarItem\"; title = \"项目列表\"; ObjectID = \"06P-o7-2YV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Project list"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "项目列表"
+          }
+        }
+      }
+    },
+    "ag5-1B-l4G.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"ag5-1B-l4G\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    },
+    "bkO-8b-upJ.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"详细地址\"; ObjectID = \"bkO-8b-upJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detail address"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "详细地址"
+          }
+        }
+      }
+    },
+    "EDz-Bv-q5E.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"EDz-Bv-q5E\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    },
+    "Ge9-2h-RZ3.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Mesh模式\"; ObjectID = \"Ge9-2h-RZ3\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Mesh模式"
+          }
+        }
+      }
+    },
+    "gKF-Iz-iGT.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"创建项目\"; ObjectID = \"gKF-Iz-iGT\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create project"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "创建项目"
+          }
+        }
+      }
+    },
+    "HDK-oB-unD.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"HDK-oB-unD\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    },
+    "i5A-OQ-cYc.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"联系人信息\"; ObjectID = \"i5A-OQ-cYc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "联系人信息"
+          }
+        }
+      }
+    },
+    "JBg-FM-DGh.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"项目详情\"; ObjectID = \"JBg-FM-DGh\";",
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Project Detail"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "项目详情"
+          }
+        }
+      }
+    },
+    "jJk-fC-09E.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Root View Controller\"; ObjectID = \"jJk-fC-09E\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Root View Controller"
+          }
+        }
+      }
+    },
+    "l31-Jc-4rb.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"项目版本\"; ObjectID = \"l31-Jc-4rb\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "项目版本"
+          }
+        }
+      }
+    },
+    "mT0-zF-Ek0.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"项目地址\"; ObjectID = \"mT0-zF-Ek0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "项目地址"
+          }
+        }
+      }
+    },
+    "nnn-SY-Lbc.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"返回\"; ObjectID = \"nnn-SY-Lbc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "返回"
+          }
+        }
+      }
+    },
+    "nqq-DP-BIA.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"选择一个项目\"; ObjectID = \"nqq-DP-BIA\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose project"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "选择一个项目"
+          }
+        }
+      }
+    },
+    "Oou-ax-I5o.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"提交\"; ObjectID = \"Oou-ax-I5o\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Submit"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "提交"
+          }
+        }
+      }
+    },
+    "QCm-Ea-ElH.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Mesh 类型\"; ObjectID = \"QCm-Ea-ElH\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Mesh 类型"
+          }
+        }
+      }
+    },
+    "qw4-f6-chi.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"负责人名称\"; ObjectID = \"qw4-f6-chi\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Owner name"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "负责人名称"
+          }
+        }
+      }
+    },
+    "Qx1-Mz-L0T.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"Qx1-Mz-L0T\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    },
+    "rff-XY-clN.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"rff-XY-clN\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    },
+    "ulS-L5-mr0.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"负责人手机号\"; ObjectID = \"ulS-L5-mr0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Owner phone"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "负责人手机号"
+          }
+        }
+      }
+    },
+    "UqX-2q-vcZ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"UqX-2q-vcZ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    },
+    "X8M-a9-vxR.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"项目名称\"; ObjectID = \"X8M-a9-vxR\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Project name"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "项目名称"
+          }
+        }
+      }
+    },
+    "Zaw-Zv-dcT.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"项目名称\"; ObjectID = \"Zaw-Zv-dcT\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "项目名称"
+          }
+        }
+      }
+    },
+    "zUp-aj-kqn.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Title\"; ObjectID = \"zUp-aj-kqn\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Title"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

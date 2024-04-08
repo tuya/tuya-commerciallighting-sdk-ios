@@ -1,0 +1,13 @@
+{
+    "config": {
+        "appId": 123,
+        "tyAppKey": "",
+        "appScheme": "ThingSmart",
+        "hotspotPrefixs": ["SmartLife"],
+        "needBle": true
+    },
+   "colors":{
+        "themeColor": "#FF5A28",
+    }
+}
+

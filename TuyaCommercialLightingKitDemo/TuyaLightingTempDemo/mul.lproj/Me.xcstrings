@@ -1,0 +1,108 @@
+{
+  "sourceLanguage" : "zh-Hans",
+  "strings" : {
+    "9fh-GM-FTm.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"邮箱\"; ObjectID = \"9fh-GM-FTm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "邮箱"
+          }
+        }
+      }
+    },
+    "446-Zc-TLO.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"446-Zc-TLO\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    },
+    "CIr-ke-TsK.title" : {
+      "comment" : "Class = \"UITabBarItem\"; title = \"我的\"; ObjectID = \"CIr-ke-TsK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Me"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "我的"
+          }
+        }
+      }
+    },
+    "JCg-Lv-9s3.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"退出登录\"; ObjectID = \"JCg-Lv-9s3\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log out"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "退出登录"
+          }
+        }
+      }
+    },
+    "m89-hc-JJI.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"昵称\"; ObjectID = \"m89-hc-JJI\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "昵称"
+          }
+        }
+      }
+    },
+    "RUZ-SC-Zer.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"我的\"; ObjectID = \"RUZ-SC-Zer\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Me"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "我的"
+          }
+        }
+      }
+    },
+    "sWJ-O1-5gf.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Detail\"; ObjectID = \"sWJ-O1-5gf\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Detail"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
