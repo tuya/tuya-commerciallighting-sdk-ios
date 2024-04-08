@@ -10,12 +10,3 @@
 "password_login" = "Password login";
 "device_offline" = "Device offline";
 "confrim" = "Confirm";
-"single_mesh"= "Single SIG Mesh";
-"multi-mesh" = "Multi SIG Mesh";
-"add_device" = "Add device";
-"create_sub_area" = "Create a sub area";
-"action" = "Action";
-"delete_area" = "Delete this area";
-"name" = "Name";
-"confirm" = "Confirm";
-"create_area" = "Create area";

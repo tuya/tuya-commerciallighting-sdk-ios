@@ -5,12 +5,12 @@
 //  Copyright (c) 2014-2021 Tuya Inc. (https://developer.tuya.com/)
 
 #import "EZModeTableViewController.h"
-#import <ThingCommercialLightingKit/ThingCommercialLightingKit.h>
+#import <TuyaCommercialLightingKit/TuyaCommercialLightingKit.h>
 #import <SVProgressHUD/SVProgressHUD.h>
 
-#import "CacheManager.h"
+#import "TYCacheManager.h"
 
-@interface EZModeTableViewController () <ThingSmartActivatorDelegate>
+@interface EZModeTableViewController () <TuyaSmartActivatorDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *ssidTextField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
 
@@ -37,32 +37,32 @@
     if (!self.isSuccess) {
         [SVProgressHUD dismiss];
     }
-    [ThingSmartActivator sharedInstance].delegate = nil;
-    [[ThingSmartActivator sharedInstance] stopConfigWiFi];
+    [TuyaSmartActivator sharedInstance].delegate = nil;
+    [[TuyaSmartActivator sharedInstance] stopConfigWiFi];
 }
 
 - (void)startConfiguration {
-    long long projectId = CacheManager.sharedInstance.projectId;
+    long long projectId = TYCacheManager.sharedInstance.projectId;
     [SVProgressHUD showWithStatus:NSLocalizedString(@"Requesting for Token", @"")];
-//    [[ThingSmartActivator sharedInstance] getTokenWithProjectId:projectId success:^(NSString *result) {
-//        if (result && result.length > 0) {
-//            self.token = result;
-//        }
-//        [self startConfiguration:self.token];
-//    } failure:^(NSError *error) {
-//        [SVProgressHUD showErrorWithStatus:error.localizedDescription];
-//    }];
+    [[TuyaSmartActivator sharedInstance] getTokenWithProjectId:projectId success:^(NSString *result) {
+        if (result && result.length > 0) {
+            self.token = result;
+        }
+        [self startConfiguration:self.token];
+    } failure:^(NSError *error) {
+        [SVProgressHUD showErrorWithStatus:error.localizedDescription];
+    }];
 }
 
 - (void)startConfiguration:(NSString *)token {
     [SVProgressHUD showWithStatus:NSLocalizedString(@"Configuring", @"")];
     NSString *ssid = self.ssidTextField.text;
     NSString *password = self.passwordTextField.text;
-    [ThingSmartActivator sharedInstance].delegate = self;
-//    [[ThingSmartActivator sharedInstance] startConfigWiFi:TYActivatorModeEZ ssid:ssid password:password token:self.token timeout:100];
+    [TuyaSmartActivator sharedInstance].delegate = self;
+    [[TuyaSmartActivator sharedInstance] startConfigWiFi:TYActivatorModeEZ ssid:ssid password:password token:self.token timeout:100];
 }
 
--(void)activator:(ThingSmartActivator *)activator didReceiveDevice:(ThingSmartDeviceModel *)deviceModel error:(NSError *)error {
+-(void)activator:(TuyaSmartActivator *)activator didReceiveDevice:(TuyaSmartDeviceModel *)deviceModel error:(NSError *)error {
     if (deviceModel && error == nil) {
         NSString *name = deviceModel.name?deviceModel.name:NSLocalizedString(@"Unknown Name", @"Unknown name device.");
         [SVProgressHUD showSuccessWithStatus:[NSString stringWithFormat:@"%@ %@" ,NSLocalizedString(@"Successfully Added", @"") ,name]];

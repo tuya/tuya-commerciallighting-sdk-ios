@@ -1,4 +1,9 @@
-# ThingCommercialLightingKit
+# Tuya Smart Commercial Lighting SDK
+
+![Pod version](http://img.shields.io/cocoapods/v/TuyaSmartCommercialLightingSdk.svg?style=flat)
+![Platform info](http://img.shields.io/cocoapods/p/TuyaSmartCommercialLightingSdk.svg?style=flat)
+[![Support](https://img.shields.io/badge/support-iOS10.0+-blue.svg?style=flat)](https://www.apple.com/nl/ios/)
+
 
 [English](README.md) | [中文版](README-zh.md)
 
@@ -42,11 +47,11 @@ The SDK includes the following functions:
 Add the following content in the file `Podfile`:
 
 ```ruby
-platform :ios, '12.0'
+platform :ios, '10.0'
 
 target 'your_target_name' do
 
-      pod "ThingCommercialLightingKit"
+      pod "TuyaSmartCommercialLightingSdk"
 
 end
 ```
@@ -58,16 +63,17 @@ For more information about CocoaPods, see [CocoaPods Guides](https://guides.coco
 ## Initialize the SDK
 
 1. Open the project to apply the setting, `Target => General`, and set `Bundle Identifier` to the value from the Tuya developer center.
-2. Import header file：
+2. Import a security image to the project, rename it as `t_s.bmp`, and then add it to `Project Setting => Target => Build Phases => Copy Bundle Resources`.
+3. Add the following content to the project file `PrefixHeader.pch`：
 
 ```objective-c
-#import <ThingCommercialLightingKit/ThingCommercialLightingKit.h>
+#import <TuyaSmartCommercialLightingSdk/TuyaSmartCommercialLightingSdk.h>
 ```
 
-3. Open the file `AppDelegate.m`，and use the `App ID` and `App Secret` that are obtained from the development platform in the `[AppDelegate application:didFinishLaunchingWithOptions:]` method to initialize the SDK:
+4. Open the file `AppDelegate.m`，and use the `App ID` and `App Secret` that are obtained from the development platform in the `[AppDelegate application:didFinishLaunchingWithOptions:]` method to initialize the SDK:
 
 ```objective-c
-[ThingSmartSDK.sharedInstance startWithAppKey:TY_APP_KEY secretKey:TY_SECRET_KEY];
+[[TuyaSmartSDK sharedInstance] startWithAppKey:<#your_app_key#> secretKey:<#your_secret_key#>];
 ```
 
 All the preparation steps are finished. You can use the SDK to develop your application.
@@ -80,6 +86,13 @@ All the preparation steps are finished. You can use the SDK to develop your appl
 For more information, see:
 * [Tuya Smart Commercial Lighting SDK Doc](https://developer.tuya.com/en/docs/app-development/commercial-lighting-app-sdk-for-ios?id=Kalj8f5wlhcsz)
 
+* [API Reference](https://appdoc-cn.tuya-inc.com:7799/TuyaSmartCommercialLightingSdk/1.9.6/)
+
+
+## Changelog
+
+[Change Log](https://developer.tuya.com/en/docs/app-development/ios-saas-lighting-changelog?id=Kaoywk53lua7r)
+
 
 ## Support
 
@@ -89,3 +102,6 @@ Tuya Smart Help Center: https://support.tuya.com/en/help
 
 Technical Support Console: https://service.console.tuya.com
 
+## License
+
+This Tuya Smart Commercial Lighting SDK Sample is licensed under the MIT License.

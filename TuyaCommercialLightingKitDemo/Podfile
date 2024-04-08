@@ -1,44 +1,40 @@
-source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/TuyaInc/TuyaPublicSpecs.git'
-source 'https://github.com/tuya/tuya-pod-specs.git'
 
-platform :ios, '12.0'
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, '10.0'
 
 target 'TuyaLightingTempDemo' do
   
-  
-  pod 'ThingCommercialLightingKit','~> 2.8.1.0'
-  pod 'ThingSmartActivatorCoreKit', '5.3.3-lamp-v2.6.1.2'
-  pod 'ThingSmartBLEKit', '5.0.16-feature-big-data.3'
-  pod 'ThingSmartBLEMeshKit', '5.1.2-feature-saas-fix5.1.2.2'
-  
-  # 构建和获取 ThingSmartCryption：从 IoT Tuya 开发者中心 构建并获取 ThingSmartCryption，详细教程请参考：构建 ThingSmartCryption 指南。
-  # Building and Obtaining ThingSmartCryption from iot.tuya.com：Build and obtain ThingSmartCryption from IoT Tuya Developer Center. For a detailed tutorial, please refer to: ThingSmartCryption Building and Retrieval Guide.
-  # 购买正式版后的下一步：一旦您购买了正式版，需要在 IoT 平台重新构建 SDK，并下载相关的 ZIP 文件。随后，进行重新集成以确保您的项目能够充分利用 Tuya 提供的功能。
-  # Next Steps After Purchasing the Official Version: After purchasing the official version, proceed to rebuild the SDK on the IoT platform and download the related ZIP file. Then, reintegrate to ensure your project fully leverages the functionalities provided by Tuya.
-  pod 'ThingSmartCryption', :path => './ios_core_sdk'
+  pod 'TuyaCommercialLightingKit', '1.12.5'
+  pod 'TuyaSmartUserToBKit', '3.26.6'
   
   
-  pod 'ThingCommercialLightingPanelBizBundle'
-  pod 'ThingCommercialLightingActivatorBizBundle'
+#  pod 'TuyaSmartActivatorCoreKit', '3.28.5'
+#  pod 'TuyaSmartActivatorKit', '3.26.6'
+#  pod 'TuyaSmartBLEKit', '3.29.5'
+#  pod 'TuyaSmartBLEMeshKit', '3.29.5'
+#  pod 'TuyaSmartBaseKit', '3.29.0'
+#  pod 'TuyaSmartDeviceCoreKit', '3.29.6'
+#
+#  pod 'TuyaSmartMQTTChannelKit', '3.29.0'
+#  pod 'TuyaSmartNetworkKit', '3.29.0'
+#  pod 'TuyaSmartQUIC', '1.1.2'
+#  pod 'TuyaSmartSocketChannelKit', '3.27.1'
+#  pod 'TuyaSmartUtil', '3.26.6'
   
-
-  pod 'YYModel', '1.0.4'
-  pod 'SVProgressHUD'
   pod 'Masonry'
+  pod 'SDWebImage'
+  pod 'SVProgressHUD'
   pod 'libextobjc'
-
-end
-
-post_install do |installer|
-  installer.pods_project.targets.each do |target|
-    target.build_configurations.each do |config|
-      config.build_settings["IPHONEOS_DEPLOYMENT_TARGET"] = "11.0"
-      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
-
-      # 请替换为您的 TeamID
-      # replace to your teamid
-      config.build_settings["DEVELOPMENT_TEAM"] = "your teamid"
-    end
-  end
+  
+  # 如果使用模拟器遇到找不到头文件的情况，请添加以下配置
+  # If you use the simulator to find the header file is not found, please add the following configuration
+#  post_install do |installer|
+#      installer.pods_project.targets.each do |target|
+#          target.build_configurations.each do |config|
+#              config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+#          end
+#      end
+#  end
+  
 end

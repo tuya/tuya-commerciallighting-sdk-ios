@@ -10,12 +10,3 @@
 "password_login" = "密码登录";
 "device_offline" = "设备离线";
 "confrim" = "确认";
-"single_mesh" = "单mesh";
-"multi-mesh" = "多mesh";
-"add_device" = "添加设备";
-"create_sub_area" = "创建子空间";
-"action" = "操作";
-"delete_area" = "删除空间";
-"name" = "名称";
-"confirm" = "确认";
-"create_area" = "创建空间";
